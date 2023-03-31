@@ -1,0 +1,3 @@
+# Shopify Theme CLI
+SHOPIFY_FLAG_STORE=example-store.myshopify.com
+SHOPIFY_CLI_THEME_TOKEN=shpka_e2d495....
