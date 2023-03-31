@@ -11,7 +11,7 @@ import {
 } from "@shopify/polaris";
 import type { IndexFiltersProps, AlphaTabProps } from "@shopify/polaris";
 import { useState, useCallback } from "react";
-import { orders, resourceName } from "@/data/orders";
+import { orders, orders2, resourceName } from "@/data/orders";
 import { sleep } from "@/utils/sleep";
 
 export function CustomPageMarkup() {
@@ -320,7 +320,7 @@ export function CustomPageMarkup() {
           { title: "Fulfillment status" },
           { title: "Items" },
           { title: "Delivery method" },
-          { title: "Tags" },
+          { title: "Tags", alignment: "start" },
         ]}
       >
         {rowMarkup}

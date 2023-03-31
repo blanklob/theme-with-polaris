@@ -1,12 +1,13 @@
 {
-  "name": "with-react",
+  "name": "theme-with-polaris",
   "version": "0.0.0",
   "private": true,
   "scripts": {
     "dev": "env-cmd adastra dev",
     "build": "adastra build",
     "preview": "adastra preview",
-    "check": "adastra check"
+    "check": "adastra check",
+    "push": "env-cmd shopify theme push -u"
   },
   "dependencies": {
     "@shopify/polaris": "^10.40.0",

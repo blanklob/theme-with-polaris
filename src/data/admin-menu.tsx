@@ -8,6 +8,7 @@ import {
   MarketingMinor,
   DiscountsMinor,
 } from "@shopify/polaris-icons";
+import { ordersArray } from "./orders";
 
 export const adminMenu = [
   {
@@ -22,7 +23,7 @@ export const adminMenu = [
     label: "Orders",
     icon: OrdersMinor,
     selected: true,
-    badge: "19",
+    badge: `${ordersArray.length}`,
     subNavigationItems: [
       {
         url: "#",
