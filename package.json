@@ -4,6 +4,7 @@
   "private": true,
   "scripts": {
     "dev": "env-cmd adastra dev",
+    "devv": "env-cmd shopify theme dev",
     "build": "adastra build",
     "preview": "adastra preview",
     "check": "adastra check",
