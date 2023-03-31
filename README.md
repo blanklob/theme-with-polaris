@@ -1,21 +1,6 @@
-# Adastra Example With React ✨
+# Shopify Theme with Polaris ✨
 
-```shell
-npm create adastra@latest -- --template blanklob/adastra/examples/with-react
-```
-
-Using Yarn/PNPM
-
-```bash
-yarn create adastra@latest --template blanklob/adastra/examples/with-react
-# pnpm create adastra@latest --template blanklob/adastra/examples/with-react
-```
-
-[![Open in GitHub Codespaces](https://github.com/codespaces/badge.svg)](https://github.com/codespaces/new?hide_repo_select=true&ref=main&repo=603560480)
-
-> 🧑‍🚀 **Hey astronaut?** Have fun building Shopify themes with Adastra!
-
-![with-react](https://raw.githubusercontent.com/blanklob/adastra/main/.github/assets/minimal-template-banner.png)
+![shopify-theme-with-polaris](/.github/preview.png)
 
 ## Launch development server
 
@@ -60,6 +45,7 @@ Inside your Adastra ✨ theme project, you'll see the following folders and file
 ```shell
 /
 ├── assets
+│   └── polaris.css
 ├── config
 ├── layout
 ├── locales
@@ -67,17 +53,16 @@ Inside your Adastra ✨ theme project, you'll see the following folders and file
 │   └── hello-world.liquid
 ├── snippets/
 │   └── colors.liquid
-├── src/  # Source directory (name can be changed in vite.config.js)
+├── src/  # Source directory (name can be changed in vite.config.ts)
 │   ├── entrypoints/ # Entrypoints directory (name can be changed in vite.config.js)
-│   │   ├── base.css
-│   │   └── index.jsx
-│   └── hello-world.jsx
+│   │   └── index.tsx
+│   └── app.tsx
 ├── templates
-├── vite.config.js
+├── vite.config.ts
 └── package.json
 ```
 
-Adastra ✨ detects entrypoint files automatically in the `entrypoints/` directory. In this case `base.css` for styles and `index.jsx` for modules.
+Adastra ✨ detects entrypoint files automatically in the `entrypoints/` directory. In this case `base.css` for styles and `index.tsx` for modules.
 
 So everything you import to these two files will be shipped to the theme `assets` folder when building for production.
 
