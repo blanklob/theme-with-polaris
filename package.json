@@ -4,11 +4,10 @@
   "private": true,
   "scripts": {
     "dev": "env-cmd adastra dev",
-    "devv": "env-cmd shopify theme dev",
     "build": "adastra build",
     "preview": "adastra preview",
     "check": "adastra check",
-    "push": "env-cmd shopify theme push -u"
+    "push": "env-cmd shopify theme push"
   },
   "dependencies": {
     "@shopify/polaris": "^10.40.0",

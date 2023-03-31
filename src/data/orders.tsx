@@ -14,9 +14,9 @@ export const orders = ordersArray
     customer: "Josh Miller",
     total: "$969.44",
     paymentStatus: <Badge progress="complete">Paid</Badge>,
-    fulfillmentStatus: <Badge progress="incomplete">Unfulfilled</Badge>,
+    fulfillmentStatus: <Badge status="attention" progress="incomplete">Unfulfilled</Badge>,
     items: "1 item",
-    deliveryMethod: "",
+    deliveryMethod: "Standard",
     tags: "",
   }))
   .reverse();
